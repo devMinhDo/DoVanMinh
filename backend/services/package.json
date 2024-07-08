@@ -1,0 +1,30 @@
+{
+  "name": "@connect/main-main",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader ts-node/esm ./translations/index.ts"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Trulet Technologies Pty Ltd",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "@connect/notice-error": "*",
+    "@connect/adapter-pattern": "*",
+    "@connect/observer-pattern": "*",
+    "@connect/decorator-pattern": "*",
+    "@connect/command-pattern": "*",
+    "@connect/facade-pattern": "*"
+  }
+}

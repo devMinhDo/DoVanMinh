@@ -1,0 +1,17 @@
+{
+  "name": "@connect/notice-error",
+  "version": "1.0.0",
+  "main": "build/server.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0"
+  },
+  "devDependencies": {
+    "ts-migrate": "^0.1.35"
+  },
+  "scripts": {
+    "build": "rimraf build && tsc -b"
+  }
+}
